@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account" >
+       
+      
+       
+  
+        <lightning:button label="Google" onclick="{!c.handleClick}"  />
+         
+    
+    </lightning:recordViewForm>
+</aura:component>

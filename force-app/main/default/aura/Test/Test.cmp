@@ -1,0 +1,19 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+ 
+	<lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account" >
+       
+        <lightning:card title="Account Details ">
+           
+            
+            
+                    <div >
+                       
+                        <lightning:outputField fieldName="Name" />    
+                        
+                    </div>
+                 
+  
+         
+        </lightning:card>        
+    </lightning:recordViewForm>
+</aura:component>

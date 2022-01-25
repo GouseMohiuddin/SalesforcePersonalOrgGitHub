@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:actionOverride,force:hasRecordId,force:hasSObjectName">
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+    
+        <lightning:button label="Create Follow Up" onclick="{!c.edit}"/>
+    
+</aura:component>

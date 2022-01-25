@@ -1,0 +1,14 @@
+<aura:component controller="TestYoutube" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    
+    <aura:attribute name= "temp1" type="List" default = 'af' />
+    
+    
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account" >
+       
+	
+     <lightning:button label="{Youtube }" title ="{!v.Name__c}" onclick="{!c.handleClick}"  />
+        
+
+    
+    </lightning:recordViewForm>
+</aura:component>

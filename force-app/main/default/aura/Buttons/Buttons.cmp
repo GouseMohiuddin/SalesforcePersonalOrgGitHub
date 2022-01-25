@@ -1,0 +1,17 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    
+    
+<lightning:layout horizontalAlign="right">
+        
+        <lightning:layoutItem flexibility="left" padding="around-xxsmall">
+            <c:Test3Buttons/>
+        </lightning:layoutItem >
+        <lightning:layoutItem flexibility="center" padding="around-xxsmall" >
+            <c:Facebook/>
+        </lightning:layoutItem>
+    <lightning:layoutItem flexibility="right" padding="around-xxsmall">
+        <c:youtube/>
+        </lightning:layoutItem >
+    </lightning:layout>   
+	
+</aura:component>

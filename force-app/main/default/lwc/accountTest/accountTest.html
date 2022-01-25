@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Account Fields ">
+    <lightning-record-view-form
+    object-api-name={objectApiName}
+    record-id={recordId}
+>
+<div class="slds-list_horizontal">
+    <!-- Forming a grid of two equal	 columns -->
+    
+        <div class="slds-col slds-size_1-of-2">
+    <lightning-output-field field-name="Name"> </lightning-output-field>
+    <lightning-output-field field-name="Both__c"> </lightning-output-field>
+    <lightning-output-field field-name="AccountNumber"> </lightning-output-field>
+    </div>
+  
+
+
+    <div class="slds-col slds-size_1-of-2">
+    <lightning-output-field field-name="OwnerId"> </lightning-output-field>
+    <lightning-output-field field-name="CurrencyIsoCode"> </lightning-output-field>
+    <lightning-output-field field-name="Contact__c"></lightning-output-field>
+</div>
+</div>
+
+</lightning-record-view-form>
+</lightning-card>
+</template>

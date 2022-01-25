@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:actionOverride,force:hasRecordId,force:hasSObjectName">
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+	<lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Contact">
+     <div class="slds"> 
+            
+     		<div style="text-align:center;">
+                <lightning:button variant="brand" label="Create Follow Up" title="Brand action" onclick="{!c.handleClick }"/> 
+            </div>
+        
+    </div>  
+    </lightning:recordViewForm>
+</aura:component>

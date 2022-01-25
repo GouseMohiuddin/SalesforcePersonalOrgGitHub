@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account" >
+       
+      
+       <div class="slds-clearfix">
+
+        <lightning:button label="Facebook" onclick="{!c.handleClick}" class="slds-align_absolute-center" />
+       </div>
+          </lightning:recordViewForm>
+     
+          
+</aura:component>

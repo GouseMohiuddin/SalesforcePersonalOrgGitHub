@@ -1,0 +1,44 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <lightning:card>
+        <div class="slds slds-p-around--medium">
+            
+            <div class="slds-section__title-action slds-p-around--small">
+                <h2><strong>New Event </strong></h2>
+            </div> 
+            <br></br>
+             
+            
+            <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getFirstName" type="text"  label="Assigned To" required="true" />
+                    </div>
+                    <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getFirstName" type="text"  label="Location"  />
+                    </div>
+                   <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getDegree" type="text" label="Subject" required="true" />
+                    </div>
+                    <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getUniversity" type="text"  label="Name" required="true" />
+                    </div>
+                    
+                    <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getCity" type="text"  label="Related To" required="true"  />
+                    </div>
+                    
+                    <div class="slds-col slds-size_6-of-12 slds-p-horizontal--medium">
+                        <lightning:input aura:id="getPAN" type="text" label="Activity Currency" required="true" maxlength="10" />
+                    </div>
+<br>   </br>                
+                <div class="slds-button-group-row ">
+                    
+                    
+                    <lightning:button variant="brand" class="slds-button-group-item" label="Save" title="Brand action" onclick="{! c.handleSave }" />
+ 					 <lightning:button variant="brand" class="slds-button-group-item" label="Cancel" title="Brand action" onclick="{! c.handleCancel }" />               
+                </div>
+                </div> 
+        
+
+        </div>
+    </lightning:card>
+</aura:component>
